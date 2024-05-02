@@ -105,16 +105,18 @@ onMounted(() => {
 
   // 控制台输出
   const styleTitle1 = "font-size: 20px;font-weight: 600;color: rgb(244,167,89);";
-  const styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
+  const styleTitle2 = "font-size:12px;color: rgb(0,204,255);";
   const styleContent = "color: rgb(30,152,255);";
-  const title1 = "無名の主页";
+  const title1 = "圣赵的小站 - 做有全球视野高品质中国少年";
   const title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ /
-  | | | |\\/| |\\___ \\  \\   /    \\   /
- _| |_| |  | |____) |  | |      | |
-|_____|_|  |_|_____/   |_|      |_|`;
+   圣圣圣圣圣圣圣圣　　　  　赵　 　赵　 　赵
+　　圣　　　　　圣　　　　赵赵赵赵　　赵　赵
+　　　　圣圣圣　　　　　　　　赵　　　　赵
+圣圣圣圣　　　圣圣圣圣　　赵赵赵赵　　赵　赵
+　　　　　圣　　　　　　　　　赵　　　赵　赵
+　圣圣圣圣圣圣圣圣圣　　  赵　赵赵　赵　　　赵
+　　　　　圣　　　　　　　赵赵赵
+圣圣圣圣圣圣圣圣圣圣圣　赵　 　赵赵赵赵赵赵赵赵`;
   const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
