@@ -1,10 +1,10 @@
 {
-  "name": "home",
-  "author": "imsyy",
-  "github": "https://github.com/imsyy/home",
-  "home": "https://imsyy.top",
+  "name": "main240221",
+  "author": "qh60",
+  "github": "https://github.com/qh360/main240221",
+  "home": "https://www.shengz.top",
   "private": true,
-  "version": "4.1.4",
+  "version": "24.5.1",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
