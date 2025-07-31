@@ -69,7 +69,7 @@ const siteIcon = {
   Compass,
   Book,
   Fire,
-  Friendship,
+  UserFriends,
   LaptopCode,
 };
 
