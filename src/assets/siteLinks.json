@@ -1,22 +1,22 @@
 [
   {
-    "icon": "Blog",
-    "name": "本站",
-    "link": "https://www.shengz.top/"
-  },
-  {
     "icon": "Compass",
     "name": "自我介绍",
     "link": "https://intro.shengz.top/"
   },
   {
     "icon": "Book",
-    "name": "提教社",
+    "name": "艾教社",
     "link": "https://tep.shengz.top/"
   },
   {
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://status.shengz.top/"
+  },
+  {
+    "icon": "Blog",
+    "name": "（友链）B4の小窝",
+    "link": "https://Halo.B4QAQ.top/"
   }
 ]
