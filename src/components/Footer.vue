@@ -11,10 +11,15 @@
           {{ fullYear }}
           <a :href="siteUrl">{{ siteAnthor }}</a>
         </span>
-        <!-- 站点备案 -->
+        <!-- 站点ICP备案 -->
         <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
           &amp;
           {{ siteIcp }}
+        </a>
+        <!-- 站点moeICP备案 -->
+        <a v-if="sitemoeIcp" href="https://icp.gov.moe" target="_blank">
+          &amp;
+          {{ sitemoeIcp }}
         </a>
       </div>
       <div v-else class="lrc">
@@ -41,10 +46,11 @@ const fullYear = new Date().getFullYear();
 // 加载配置数据
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
+const sitemoeIcp = ref(import.meta.env.VITE_SITE_moeICP);
 const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://www.imsyy.top";
+  if (!url) return "https://www.shengz.top";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
     return "//" + url;
